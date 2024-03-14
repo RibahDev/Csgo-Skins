@@ -1,0 +1,163 @@
+﻿[
+  {
+    "Numero": 1,
+    "Nome": "AK-47 Imperatriz",
+    "Descricao": "Essa Skin de AK-47 é estilizada com o desenho de uma Rainha de cabelos dourados, inspirada na carta 'A Imperatriz' do baralho de tarot.",
+    "Tipo": "Rifle",
+    "Caracteristica": [ "Média", "Longa", "TR" ] ,
+    "Dano": 36,
+    "Alcance": "24m",
+    "Imagem": "\\img\\armas\\001.png"
+  },
+  {
+    "Numero": 2,
+    "Nome": "M4A4 Rei Dragão",
+    "Descricao": "Essa Skin de M4A4 é estilizada com a ilustração de um dragão chinês voando sobre um padrão colorido. ",
+    "Tipo": "Rifle",
+    "Caracteristica": [ "Média", "Longa","CT" ],
+    "Dano": 33,
+    "Alcance": "30m",
+    "Imagem": "\\img\\armas\\002.png"
+  },
+  {
+    "Numero": 3,
+    "Nome": "M4A4 Desolação Espacial",
+    "Descricao": "Essa Skin de M4A4 é estilizada com o desenho de um astronauta abandonado no espaço, possivelmente por ter sido atacado por alíenigenas.",
+    "Tipo": "Rifle",
+    "Caracteristica": [ "Média", "Longa", "CT" ],
+    "Dano": 33,
+    "Alcance": "30m",
+    "Imagem": "\\img\\armas\\003.png"
+  },
+  {
+    "Numero": 4,
+    "Nome": "AWP Dragon Lore",
+    "Descricao": "A AWP Dragon Lore tem uma combinação de cores única: dourada com detalhes em vermelho, com o escopo da arma detalhado em verde.",
+    "Tipo": "Rifle-Precisao",
+    "Caracteristica": [ "Longa", "CT", "TR" ],
+    "Dano": 115,
+    "Alcance": "76m",
+    "Imagem": "\\img\\armas\\004.png"
+  },
+  {
+    "Numero": 5,
+    "Nome": "M4A4 Poseidon",
+    "Descricao": "A M4A4 Poseidon é uma ótima skin de CSGO do tipo Rifle para comprar, recebeu 105 votos da comunidade com 4.8 de 5 estrelas. ",
+    "Tipo": "Rifle",
+    "Caracteristica": [ "Média", "Longa", "CT" ],
+    "Dano": 33,
+    "Alcance": "30m",
+    "Imagem": "\\img\\armas\\005.png"
+  },
+  {
+    "Numero": 6,
+    "Nome": "Butterfly Fade",
+    "Descricao": "Canivete de treino Este produto nao é afiado, Destinado a maiores de 10 anos. Características principais: Cor diferenciada nao possui corte em sua Lamina, feito para treino de manobras.",
+    "Tipo": "Faca",
+    "Caracteristica": [ "Corpo-a-corpo","CT", "TR" ],
+    "Dano": "30/80",
+    "Alcance": "0,5m",
+    "Imagem": "\\img\\armas\\006.png"
+  },
+  {
+    "Numero": 7,
+    "Nome": "P90 Madeira Cinzenta",
+    "Descricao": "Facilmente reconhecida pelo seu design 'bullpup', a P90 é uma ótima arma para atirar em movimento devido ao seu pente de alta capacidade e pequeno coice.",
+    "Tipo": "Submetralhadora",
+    "Caracteristica": [ "Curta", "Média", "CT", "TR" ],
+    "Dano": 26,
+    "Alcance": "11m",
+    "Imagem": "\\img\\armas\\007.png"
+  },
+  {
+    "Numero": 8,
+    "Nome": "AK-47 Arabesca Dourada",
+    "Descricao": "Poderoso e confiável, o AK-47 é um dos rifles de assalto mais populares do mundo. Ele é mais mortal em rajadas curtas e controladas. Esta arma foi pintada com um design intrincado na coronha e empunhadura.",
+    "Tipo": "Rifle",
+    "Caracteristica": [ "Média", "Longa", "TR" ],
+    "Dano": 36,
+    "Alcance": "24m",
+    "Imagem": "\\img\\armas\\008.png"
+  },
+  {
+    "Numero": 9,
+    "Nome": "M4A4 How",
+    "Descricao": "A M4A4 Howl em questão é uma StatTrak, que mostra a quantidade de adversários abatidos com o armamento, além de possuir um Wear Rating de 0,003.",
+    "Tipo": "Rifle",
+    "Caracteristica": [ "Média", "Longa", "CT" ],
+    "Dano": 33,
+    "Alcance": "30m",
+    "Imagem": "\\img\\armas\\009.png"
+  },
+  {
+    "Numero": 10,
+    "Nome": "Karambit Ruby",
+    "Descricao": "O karambit foi desenvolvido como parte da disciplina marcial de silat do sudeste asiático. É mais reconhecível da lâmina curva que imita a garra de um tigre.",
+    "Tipo": "Faca",
+    "Caracteristica": [ "Corpo-a-corpo", "CT", "TR" ],
+    "Dano": "30/80",
+    "Alcance": "0,5m",
+    "Imagem": "\\img\\armas\\010.png"
+  },
+  {
+    "Numero": 11,
+    "Nome": "Desert Eagle Blaze",
+    "Descricao": "Tão cara como potente, a Desert Eagle é uma pistola icónica que, apesar de ser difícil de dominar, é surpreendentemente precisa a longas distâncias.",
+    "Tipo": "Pistola",
+    "Caracteristica": [ "Curta", "Média", "Longa", "CT", "TR" ],
+    "Dano": 53,
+    "Alcance": "27m",
+    "Imagem": "\\img\\armas\\011.png"
+  },
+  {
+    "Numero": 12,
+    "Nome": "AK-47 Revolução Neon",
+    "Descricao": "Essa Skin de AK-47 é estilizada com uma pintura de rusa de tintas rosa e preta, além da palavra ANARCHY ('anarquia' em inglês) pichada em destaque.",
+    "Tipo": "Rifle",
+    "Caracteristica": [ "Média", "Longa", "TR" ],
+    "Dano": 36,
+    "Alcance": "24m",
+    "Imagem": "\\img\\armas\\012.png"
+  },
+  {
+    "Numero": 13,
+    "Nome": "AWP Raposa Furiosa",
+    "Descricao": "Essa Skin de AWP é estilizada com a ilustração de uma raposa de Fogo sobre uma base preta e vermelha.",
+    "Tipo": "Rifle-Precisao",
+    "Caracteristica": [ "Média", "Longa", "CT", "TR" ],
+    "Dano": 115,
+    "Alcance": "76m",
+    "Imagem": "\\img\\armas\\013.png"
+  },
+  {
+    "Numero": 14,
+    "Nome": "P90 Grim",
+    "Descricao": "Facilmente reconhecida pelo seu design 'bullpup', a P90 é uma ótima arma para atirar em movimento devido ao seu pente de alta capacidade e pequeno coice.",
+    "Tipo": "Submetralhadora",
+    "Caracteristica": [ "Curta", "Média", "CT", "TR" ],
+    "Dano": 26,
+    "Alcance": "11m",
+    "Imagem": "\\img\\armas\\014.png"
+  },
+  {
+    "Numero": 15,
+    "Nome": "MAC-10 Piloto Neon",
+    "Descricao": "Essa Skin de MAC-10 é estilizada com um desenho de um piloto de moto, misturando cores chamativas, linhas retas e pontos arredondados para gerar a sensação retro-futurista.",
+    "Tipo": "Submetralhadora",
+    "Caracteristica": [ "Curta", "Média", "TR" ],
+    "Dano": 29,
+    "Alcance": "12m",
+    "Imagem": "\\img\\armas\\016.png"
+  },
+  {
+    "Numero": 16,
+    "Nome": "Five-Seven Banana",
+    "Descricao": "Essa Skin de Five-Seven é estilizada com a ilustração de uma Banana sobre uma superfície azul. ",
+    "Tipo": "Pistola",
+    "Caracteristica": [ "Curta", "Média", "CT" ],
+    "Dano": 32,
+    "Alcance": "15m",
+    "Imagem": "\\img\\armas\\017.png"
+  }
+
+]

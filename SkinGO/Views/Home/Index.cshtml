@@ -1,8 +1,68 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model List<Skins>
+@{
+    ViewData["Title"] = "Home";
+    var tipos = (List<Caracteristica>)ViewData["Caracteristicas"];
+    string Cor(string nome)
+    {
+        return caracteristicas
+        .Where(t => t.Nome == nome)
+        .Select(t => t.Cor)
+        .FirstOrDefault();
+    }
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<section class="pt-5 pb-3 text-center container">
+    <div class="row">
+        <div class="col mx-auto">
+            <h1>Skins CSGO</h1>
+            <div class="group">
+                <button id="btn-all" class="btn btn-md my-2 text-white bg-dark btn-filter"
+                    onclick="filter('all')">
+                    Ver Todos
+                </button>
+                @foreach (var Caracteristica in caracteristicas)
+                {
+                    <button id="btn-@caracteristica.Nome" class="btn btn-sm my-2 text-white btn-filter"
+                        style="background-color:@caracteristica.Cor" onclick="filter('@caracteristica.Nome')">
+                        @caracteristica.Nome
+                    </button>
+                }
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="py-5 bg-light">
+    <div class="container">
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3">
+            @foreach (var skin in Model)
+            {
+                <!-- Card Pokemon - Inicio -->
+                <div class="col" onclick="window.location = '/Home/Details/@skin.Numero'">
+                    <div class="card shadow-sm cursor-pointer @string.Join(' ', skin.Caracteristica)">
+                            <img src="@skin.Imagem" class="card-img-top" width="100%" height="300" alt="@skin.Nome" />
+                            <div class="card-body">
+                            <p class="card-text mb-0">N° @skin.Numero.ToString("000")</p>
+                            <h3 class="card-title">@skin.Nome</h3>
+                            <div class="btn-group">
+                                @foreach (var caracteristica in skin.Caracteristica)
+                                {
+                                    <a href="#" class="btn my-2 text-white"
+                                     style="background-color:@Cor(caracteristica)"
+                                     onclick="filter('@caracteristica')">@caracteristica</a>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card skin - Fim -->
+            }
+
+            <div id="zeroPokemon" class="col-lg-12 text-center">
+                <h1 class="my-3 text-danger">Nenhuma Skin Encontrada</h1>
+            </div>
+        </div>
+
+    </div>
 </div>

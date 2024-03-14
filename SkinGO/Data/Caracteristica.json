@@ -1,0 +1,23 @@
+﻿[
+  {
+    "Nome": "Curta",
+    "Cor": "#87CEFA"
+  },
+  {
+    "Nome": "Média",
+    "Cor": "#FF8C00"
+  },
+  {
+    "Nome": "Longa",
+    "Cor": "#FF0000"
+  },
+  {
+    "Nome": "CT",
+    "Cor": "#4682B4"
+  },
+  {
+    "Nome": "TR",
+    "Cor": "#DAA520"
+  }
+  
+]
