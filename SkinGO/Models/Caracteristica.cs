@@ -1,6 +1,6 @@
 namespace Skingo.Models;
 
-public class Tipo
+public class Caracteristica
 {
     public string Nome { get; set; }
 

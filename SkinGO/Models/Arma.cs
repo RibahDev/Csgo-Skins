@@ -1,5 +1,5 @@
 namespace SkinGO.Models;
-    public class Skins
+    public class Arma
     {
         public int Numero { get; set; }
 

@@ -16,25 +16,41 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        List<Arma> armas = [];
-        using (StramReader leitor = new("Data\\armas.json"))
-        {
-            string dados = leitor.ReadToEnd(); 
-            skins = JsonSerializer.Deserialize<List<Armas>>(dados);
-        }
-        List<Caracteristica> caracteristicas = [];
-        using(StreamReader leitor = new("Data\\caracteristicas.json"))
-        {
-            string dados = leitor.ReadToEnd();
-            caracteristicas = JsonSerializer.Deserialize<List<Caracteristica>>(dados);
-        }
+        List<Arma> armas = GetArmas();
+        List<Caracteristica> caracteristicas = GetCaracteristicas();
         ViewData["Caracteristicas"] = caracteristicas;
         return View(armas);
     }
 
-    public IActionResult Privacy()
+    public IActionResult Details(int id)
     {
-        return View();
+        List<Arma> armas = GetArmas();
+        List<Caracteristica> caracteristicas = GetCaracteristicas();
+        DetailsVM details = new() {
+            Caracteristicas = caracteristicas,
+            Atual = armas.FirstOrDefault(p => p.Numero == id),
+            Anterior = armas.OrderByDescending(p => p.Numero).FirstOrDefault(p => p.Numero < id),
+            Proximo = armass.OrderBy(p => p.Numero).FirstOrDefault(p => p.Numero > id),
+        };
+        return View(details);
+    }
+
+    private List<Arma> GetArmas()
+    {
+        using (StreamReader leitor = new("Data\\armas.json"))
+        {
+            string dados = leitor.ReadToEnd();
+            return JsonSerializer.Deserialize<List<Arma>>(dados);
+        }
+    }
+
+   private List<Tipo> GetCaracteristicas()
+    {
+        using (StreamReader leitor = new("Data\\caracteristicas.json"))
+        {
+            string dados = leitor.ReadToEnd();
+            return JsonSerializer.Deserialize<List<Caracteristica>>(dados);
+        }
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

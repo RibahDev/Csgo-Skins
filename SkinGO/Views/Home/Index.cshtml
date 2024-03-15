@@ -36,17 +36,17 @@
     <div class="container">
 
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3">
-            @foreach (var skin in Model)
+            @foreach (var arma in Model)
             {
                 <!-- Card Pokemon - Inicio -->
-                <div class="col" onclick="window.location = '/Home/Details/@skin.Numero'">
-                    <div class="card shadow-sm cursor-pointer @string.Join(' ', skin.Caracteristica)">
-                            <img src="@skin.Imagem" class="card-img-top" width="100%" height="300" alt="@skin.Nome" />
+                <div class="col" onclick="window.location = '/Home/Details/@arma.Numero'">
+                    <div class="card shadow-sm cursor-pointer @string.Join(' ', arma.Caracteristica)">
+                            <img src="@arma.Imagem" class="card-img-top" width="100%" height="300" alt="@arma.Nome" />
                             <div class="card-body">
-                            <p class="card-text mb-0">N° @skin.Numero.ToString("000")</p>
-                            <h3 class="card-title">@skin.Nome</h3>
+                            <p class="card-text mb-0">N° @arma.Numero.ToString("000")</p>
+                            <h3 class="card-title">@arma.Nome</h3>
                             <div class="btn-group">
-                                @foreach (var caracteristica in skin.Caracteristica)
+                                @foreach (var caracteristica in arma.Caracteristica)
                                 {
                                     <a href="#" class="btn my-2 text-white"
                                      style="background-color:@Cor(caracteristica)"

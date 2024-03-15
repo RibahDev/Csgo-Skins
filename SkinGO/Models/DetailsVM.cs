@@ -2,11 +2,11 @@ namespace Pokedex.Models;
 
 public class DetailsVM
 {
-    public Skins Anterior {get; set; }
+    public Arma Anterior {get; set; }
 
-    public Skins Atual { get; set; }
+    public Arma Atual { get; set; }
 
-    public Skins Proximo { get; set;}
+    public Arma Proximo { get; set;}
 
     public List<Caracteristica> Caracteristicas { get; set; }
 }
