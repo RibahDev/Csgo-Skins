@@ -16,7 +16,20 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        return View();
+        List<Arma> armas = [];
+        using (StramReader leitor = new("Data\\armas.json"))
+        {
+            string dados = leitor.ReadToEnd(); 
+            skins = JsonSerializer.Deserialize<List<Armas>>(dados);
+        }
+        List<Caracteristica> caracteristicas = [];
+        using(StreamReader leitor = new("Data\\caracteristicas.json"))
+        {
+            string dados = leitor.ReadToEnd();
+            caracteristicas = JsonSerializer.Deserialize<List<Caracteristica>>(dados);
+        }
+        ViewData["Caracteristicas"] = caracteristicas;
+        return View(armas);
     }
 
     public IActionResult Privacy()
