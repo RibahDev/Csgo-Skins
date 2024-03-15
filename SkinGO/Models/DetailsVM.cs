@@ -1,4 +1,4 @@
-namespace Pokedex.Models;
+namespace SkinGO.Models;
 
 public class DetailsVM
 {

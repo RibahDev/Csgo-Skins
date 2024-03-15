@@ -3,10 +3,10 @@
     ViewData["Title"] = "Arma";
     string Cor(string nome)
     {
-        return Model.Tipos
+        return Model.Caracteristicas
         .Where(t => t.Nome == nome)
-        .Select(t => t.cor)
-        .FirtOrDefault();
+        .Select(t => t.Cor)
+        .FirstOrDefault();
 
     }
 }
@@ -48,7 +48,7 @@
             <p class="mb-3"><strong>Alcance:</strong> @Model.Atual.Alcance M</p>
             <p class="fw-bold">Caracteristica</p>
             <div class="btn-group">
-                @foreach (var tipo in Model.Atual.Tipo)
+                @foreach (var caracteristica in Model.Atual.Caracteristica)
                 {
                     <a href="#" class="btn btn-lg text-white" style="background-color:@Cor(caracteristica)">
                         @caracteristica

@@ -55,7 +55,7 @@
     "Descricao": "Canivete de treino Este produto nao é afiado, Destinado a maiores de 10 anos. Características principais: Cor diferenciada nao possui corte em sua Lamina, feito para treino de manobras.",
     "Tipo": "Faca",
     "Caracteristica": [ "Corpo-a-corpo","CT", "TR" ],
-    "Dano": "30/80",
+    "Dano": 30,
     "Alcance": "0,5m",
     "Imagem": "\\img\\armas\\006.png"
   },
@@ -95,7 +95,7 @@
     "Descricao": "O karambit foi desenvolvido como parte da disciplina marcial de silat do sudeste asiático. É mais reconhecível da lâmina curva que imita a garra de um tigre.",
     "Tipo": "Faca",
     "Caracteristica": [ "Corpo-a-corpo", "CT", "TR" ],
-    "Dano": "30/80",
+    "Dano": 30,
     "Alcance": "0,5m",
     "Imagem": "\\img\\armas\\010.png"
   },

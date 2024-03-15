@@ -1,7 +1,7 @@
 ﻿@model List<Arma>
 @{
     ViewData["Title"] = "Home";
-    var tipos = (List<Caracteristica>)ViewData["Caracteristicas"];
+    var caracteristicas = (List<Caracteristica>)ViewData["Caracteristicas"];
     string Cor(string nome)
     {
         return caracteristicas
@@ -20,7 +20,7 @@
                     onclick="filter('all')">
                     Ver Todos
                 </button>
-                @foreach (var Caracteristica in caracteristicas)
+                @foreach (var caracteristica in caracteristicas)
                 {
                     <button id="btn-@caracteristica.Nome" class="btn btn-sm my-2 text-white btn-filter"
                         style="background-color:@caracteristica.Cor" onclick="filter('@caracteristica.Nome')">

@@ -30,7 +30,7 @@ public class HomeController : Controller
             Caracteristicas = caracteristicas,
             Atual = armas.FirstOrDefault(p => p.Numero == id),
             Anterior = armas.OrderByDescending(p => p.Numero).FirstOrDefault(p => p.Numero < id),
-            Proximo = armass.OrderBy(p => p.Numero).FirstOrDefault(p => p.Numero > id),
+            Proximo = armas.OrderBy(p => p.Numero).FirstOrDefault(p => p.Numero > id),
         };
         return View(details);
     }
