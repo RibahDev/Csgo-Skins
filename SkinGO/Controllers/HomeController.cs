@@ -44,7 +44,7 @@ public class HomeController : Controller
         }
     }
 
-   private List<Tipo> GetCaracteristicas()
+   private List<Caracteristica> GetCaracteristicas()
     {
         using (StreamReader leitor = new("Data\\caracteristicas.json"))
         {
