@@ -1,9 +1,12 @@
+main {
+  background-color: black;
+}
 .card img {
-  background-color: rgb(7, 0, 0);
+  background-color: rgb(82, 82, 82);
 }
 
 .card:hover {
-  border: 3px solid #808080;
+  border: 3px solid #d19300;
   transform: scale(1.15);
   transition: 1s;
   z-index: 1000;

@@ -22,6 +22,7 @@ public class HomeController : Controller
         return View(armas);
     }
 
+
     public IActionResult Details(int id)
     {
         List<Arma> armas = GetArmas();

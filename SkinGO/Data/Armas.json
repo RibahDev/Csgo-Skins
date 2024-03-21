@@ -6,7 +6,7 @@
     "Tipo": "Rifle",
     "Caracteristica": [ "Média", "Longa", "TR" ] ,
     "Dano": 36,
-    "Alcance": "24m",
+    "Alcance": "24",
     "Imagem": "\\img\\armas\\001.png"
   },
   {
@@ -16,7 +16,7 @@
     "Tipo": "Rifle",
     "Caracteristica": [ "Média", "Longa","CT" ],
     "Dano": 33,
-    "Alcance": "30m",
+    "Alcance": "30",
     "Imagem": "\\img\\armas\\002.png"
   },
   {
@@ -26,7 +26,7 @@
     "Tipo": "Rifle",
     "Caracteristica": [ "Média", "Longa", "CT" ],
     "Dano": 33,
-    "Alcance": "30m",
+    "Alcance": "30",
     "Imagem": "\\img\\armas\\003.png"
   },
   {
@@ -36,7 +36,7 @@
     "Tipo": "Rifle-Precisao",
     "Caracteristica": [ "Longa", "CT", "TR" ],
     "Dano": 115,
-    "Alcance": "76m",
+    "Alcance": "76",
     "Imagem": "\\img\\armas\\004.png"
   },
   {
@@ -46,7 +46,7 @@
     "Tipo": "Rifle",
     "Caracteristica": [ "Média", "Longa", "CT" ],
     "Dano": 33,
-    "Alcance": "30m",
+    "Alcance": "30",
     "Imagem": "\\img\\armas\\005.png"
   },
   {
@@ -56,7 +56,7 @@
     "Tipo": "Faca",
     "Caracteristica": [ "Corpo-a-corpo","CT", "TR" ],
     "Dano": 30,
-    "Alcance": "0,5m",
+    "Alcance": "0,5",
     "Imagem": "\\img\\armas\\006.png"
   },
   {
@@ -66,7 +66,7 @@
     "Tipo": "Submetralhadora",
     "Caracteristica": [ "Curta", "Média", "CT", "TR" ],
     "Dano": 26,
-    "Alcance": "11m",
+    "Alcance": "11",
     "Imagem": "\\img\\armas\\007.png"
   },
   {
@@ -76,7 +76,7 @@
     "Tipo": "Rifle",
     "Caracteristica": [ "Média", "Longa", "TR" ],
     "Dano": 36,
-    "Alcance": "24m",
+    "Alcance": "24",
     "Imagem": "\\img\\armas\\008.png"
   },
   {
@@ -86,7 +86,7 @@
     "Tipo": "Rifle",
     "Caracteristica": [ "Média", "Longa", "CT" ],
     "Dano": 33,
-    "Alcance": "30m",
+    "Alcance": "30",
     "Imagem": "\\img\\armas\\009.png"
   },
   {
@@ -96,7 +96,7 @@
     "Tipo": "Faca",
     "Caracteristica": [ "Corpo-a-corpo", "CT", "TR" ],
     "Dano": 30,
-    "Alcance": "0,5m",
+    "Alcance": "0,5",
     "Imagem": "\\img\\armas\\010.png"
   },
   {
@@ -106,7 +106,7 @@
     "Tipo": "Pistola",
     "Caracteristica": [ "Curta", "Média", "Longa", "CT", "TR" ],
     "Dano": 53,
-    "Alcance": "27m",
+    "Alcance": "27",
     "Imagem": "\\img\\armas\\011.png"
   },
   {
@@ -116,7 +116,7 @@
     "Tipo": "Rifle",
     "Caracteristica": [ "Média", "Longa", "TR" ],
     "Dano": 36,
-    "Alcance": "24m",
+    "Alcance": "24",
     "Imagem": "\\img\\armas\\012.png"
   },
   {
@@ -126,7 +126,7 @@
     "Tipo": "Rifle-Precisao",
     "Caracteristica": [ "Média", "Longa", "CT", "TR" ],
     "Dano": 115,
-    "Alcance": "76m",
+    "Alcance": "76",
     "Imagem": "\\img\\armas\\013.png"
   },
   {
@@ -136,7 +136,7 @@
     "Tipo": "Submetralhadora",
     "Caracteristica": [ "Curta", "Média", "CT", "TR" ],
     "Dano": 26,
-    "Alcance": "11m",
+    "Alcance": "11",
     "Imagem": "\\img\\armas\\014.png"
   },
   {
@@ -146,8 +146,8 @@
     "Tipo": "Submetralhadora",
     "Caracteristica": [ "Curta", "Média", "TR" ],
     "Dano": 29,
-    "Alcance": "12m",
-    "Imagem": "\\img\\armas\\016.png"
+    "Alcance": "12",
+    "Imagem": "\\img\\armas\\015.png"
   },
   {
     "Numero": 16,
@@ -156,8 +156,8 @@
     "Tipo": "Pistola",
     "Caracteristica": [ "Curta", "Média", "CT" ],
     "Dano": 32,
-    "Alcance": "15m",
-    "Imagem": "\\img\\armas\\017.png"
+    "Alcance": "15",
+    "Imagem": "\\img\\armas\\016.png"
   }
 
 ]
