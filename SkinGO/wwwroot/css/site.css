@@ -35,3 +35,7 @@ main {
 .card-text, .card-title {
   color: white;
 }
+
+.img-fluid {
+  filter: drop-shadow(-5px 5px 5px #0000006b);
+}
