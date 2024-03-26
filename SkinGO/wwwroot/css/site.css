@@ -2,17 +2,35 @@
 
 
 main {
-  background-color: rgb(255, 255, 255);
+  background-color: #fff;
+}
+
+#back{
+  background-color: #1f1f1f;
+  box-shadow: 15px 0 10px #00000091;
+}
+
+button:hover {
+  transform: scale(1.15);
+  transition: 0.8s;
+  z-index: 1000;
 }
 
 .card img {
-  background-color: rgb(82, 82, 82);
+    background-image: url(../img/fundo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.card {
+  transition: 0.5s;
 }
 
 .card:hover {
   border: 3px solid #d19300;
-  transform: scale(1.15);
-  transition: 1s;
+  transform: scale(1.10);
+  transition: 0.8s;
   z-index: 1000;
 }
 
@@ -37,5 +55,14 @@ main {
 }
 
 .img-fluid {
+  transition: 0.5s;
   filter: drop-shadow(-5px 5px 5px #0000006b);
 }
+
+.img-fluid:hover {
+  transform: scale(1.10);
+  transition: 0.8s;
+  filter: drop-shadow(-10px 7px 7px #0000006b);
+
+}
+
