@@ -7,7 +7,7 @@ main {
 
 #back{
   background-color: #1f1f1f;
-  box-shadow: 15px 0 10px #00000091;
+  box-shadow: 15px 0 10px #000000b4;
 }
 
 button:hover {
@@ -66,3 +66,6 @@ button:hover {
 
 }
 
+#navbarHeader {
+  background-color: #f96f2f;
+}
