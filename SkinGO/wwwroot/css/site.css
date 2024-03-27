@@ -10,6 +10,10 @@ main {
   box-shadow: 15px 0 10px #000000b4;
 }
 
+#back {
+  background-image: url(../img/csgo.jpg);
+}
+
 button:hover {
   transform: scale(1.15);
   transition: 0.8s;
